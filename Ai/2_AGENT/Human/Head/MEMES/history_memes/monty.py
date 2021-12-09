@@ -1,0 +1,10 @@
+
+# prophecies ?
+
+#m,
+
+Monty Python's The Meaning of Life (1983)
+Main article: Monty Python's The Meaning of Life
+The Pythons' final film returned to something structurally closer to the style of Flying Circus. A series of sketches loosely follows the ages of man from birth to death. Directed again by Jones solo, The Meaning of Life is embellished with some of the group's most bizarre and disturbing moments, as well as various elaborate musical numbers, which include "Galaxy Song" (performed by Idle) and "Every Sperm Is Sacred" (performed by Palin and Jones).[75] The film is by far their darkest work, containing a great deal of black humour, garnished by some spectacular violence (including an operation to remove a liver from a living patient without anaesthetic and the morbidly obese Mr. Creosote exploding over several restaurant patrons after finally giving in to the smooth maître d' telling him to eat a mint – "It's only a wafer-thin mint...").[66] At the time of its release, the Pythons confessed their aim was to offend "absolutely everyone", adding "It is guaranteed to offend".[76]
+
+The Liver Donor scene (which sees someone come to a man's door to take his liver, to which he says: "No, no, I'm not dead", before being told: "Oooh, it doesn't say that on the form"), is a satire on bureaucracy, a common Python trope.[75] Besides the opening credits and the fish sequence, Gilliam, by now an established live-action director, no longer wanted to produce any linking cartoons, offering instead to direct one sketch, "The Crimson Permanent Assurance". Under his helm, though, the segment grew so ambitious and tangential that it was cut from the movie and used as a supporting feature in its own right. (Television screenings also use it as a prologue.) This was the last project on which all six Pythons collaborated, except for the 1989 compilation Parrot Sketch Not Included, where they are all seen sitting in a closet for four seconds. This was the last time Chapman appeared on screen with the Pythons.[62]

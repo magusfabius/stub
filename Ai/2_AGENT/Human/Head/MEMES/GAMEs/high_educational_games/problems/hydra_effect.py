@@ -1,0 +1,1 @@
+#@ let's play an hypotetical context with D&D 6&&&66D&D&D 66

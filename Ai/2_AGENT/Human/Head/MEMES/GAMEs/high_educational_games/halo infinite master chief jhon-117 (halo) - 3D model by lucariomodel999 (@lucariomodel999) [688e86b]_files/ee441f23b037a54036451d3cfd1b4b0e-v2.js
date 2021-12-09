@@ -1,0 +1,1 @@
+(self.webpackChunksketchfab=self.webpackChunksketchfab||[]).push([[4475],{"0b2q":(e,s,n)=>{"use strict";n.d(s,{Z:()=>c});var r=n("orms"),t=n.n(r),a=(n("3Z9q"),n("WeWI"));n("L3Jx");const c=function(){return t()("div",{className:"sketchfab-spinner",dangerouslySetInnerHTML:{__html:a.Z.getFromMacro("skfb_front/macros/logo","sketchfab_spinner",[])}})}}}]);

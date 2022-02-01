@@ -3,7 +3,9 @@
 
 
 
-Individuals who experience some form of disconnection or rejection may develop one or more of these five schemas: abandonment, mistrust/abuse, emotional deprivation, defectiveness/shame, and social isolation.Apr 2, 2020
+Individuals who experience some form of disconnection or rejection may develop one or more of these five schemas: 
+
+abandonment, mistrust/abuse, emotional deprivation, defectiveness/shame, and social isolation.Apr 2, 2020
 
 
 

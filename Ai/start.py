@@ -8,9 +8,22 @@
 
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import requests
-import re
+import time
 
+from uuid import uuid4
+
+# logging module, so you will know when (and why) things don't work as expected:
+import logging
+logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
+
+
+
+# telegram CONSTANTS
 BOT_TOKEN = "1959604620:AAEdTCS9az7woTg5e8XOne26bd3Lww3z9uU"
+
+
+
+
 url_requested = "https://www.sciencenewsforstudents.org/wp-content/uploads/2021/08/LL_AI_feat-1030x580.jpg"
 
 # get url from request
@@ -39,59 +52,39 @@ def answer_callback(update, context):
     print(update.edited_channel_post)
 
 
-# SE NON DAI IL MEGLIO NON TI TORNA IL MEGLIO
-# 
-life_points = 100
-PUNISH_POINT = -2
-REWARD_POINT = +2
 
-UPDATE = ""
-ACTION_TYPE = ""
-CONTEXT = ""
+def add_user_activity(update, context):
+    user_action = context.args
+    start_time = time.time()
 
 
+    context.user_data["activity"] = new_activity_list
+    print(user_action, start_time)
 
-class Action():
-    action_type = 0 # 0 is string, 1 is somethung else
+# ACT methodology with a bot
+def add_negative_emotion(update, context):
+    update.message.reply_text("Take 3 deep breaths with me and embrace the emotion")
+    # breath sound
+    update.message.reply_text("Brief description of negative emotion ...")
+    update.message.reply_text("Give a name to this emotion ... ")
 
-action = new Action(update, action_type, context)
-
-
-def get_reward(update, context):
-    life_points = life_points + REWARD_POINT
-
-def wrong_move(update, context):
-    life_points = life_points + PUNISH_POINT
-
-def move(update, context):
-    
-    
-
-import win32api, win32con
-def click(x,y):p
-    win32api.SetCursorPos((x,y))
-    win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN,x,y,0,0)
-    win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP,x,y,0,0)
-click(10,10)
-
-
-
-
-
-
-
-
+    # METADATA
+    update.message.reply_text("Where are you?")
+    update.message.reply_text("What were you doing?")
+    update.message.reply_text("Extra notes")
 
 
 
 def main():
     print("hello")
     updater = Updater(BOT_TOKEN)
-    dp = updater.dispatcher
+    dispatcher = updater.dispatcher
     #dp.add_handler(CommandHandler('bop', send_photo))
-    dp.add_handler(CommandHandler("start", start_callback))
+    dispatcher.add_handler(CommandHandler("start", start_callback))
+    dispatcher.add_handler(CommandHandler("activity", add_user_activity))
 
-    dp.add_handler(MessageHandler(Filters.all, answer_callback))
+
+    dispatcher.add_handler(MessageHandler(Filters.all, answer_callback))
     updater.start_polling()
     updater.idle()
     

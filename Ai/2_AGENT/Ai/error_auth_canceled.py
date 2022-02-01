@@ -41,7 +41,7 @@ def search_near_me(coordinates):
     #
 
 
-help_list = [ "@me", ["118", search_near_me]
+help_list = [ "@me", ["118", search_near_me]]
 
 def critical_response():
     print("404")

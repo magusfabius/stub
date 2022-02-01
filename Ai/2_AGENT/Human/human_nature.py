@@ -9,3 +9,7 @@ import @Ai_Joe_black
 character_timespan = time.time()
 birth_day = 0 # which is different from the def birthday()
 gameover_day = calculate()
+
+
+import love
+

@@ -53,9 +53,6 @@ current_inspirations = ["https://www.unrealengine.com/en-US/"]
 
 maslow_levels = [[], [], []]
 
-
-
-
 current_context = "sitting in a bar with laptop" # I can auto get that with slow fast
 meme_list = ["I should eat a piadina", "I must finish the Siraj Raval video", "I have to create contents about what I learn"]
 
@@ -70,9 +67,6 @@ def meme_to_maslow_level(meme):
             human_sub_labelling = int(input())
         case 1:
     """
-
-
-
 
 def meme_to_action(meme):
     print("So, your current meme is: ", meme)
@@ -90,6 +84,12 @@ get_current_working_level("sitting in a bar with laptop", )
 
 
 # create a database in order to train an AI to understand me
+
+
+
+
+
+
 
 
 
